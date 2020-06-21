@@ -2,10 +2,11 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
+    <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
+    <Authors>Yibo Li</Authors>
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="String\" />
     <Folder Include="Reflection\" />
     <Folder Include="Encode\" />
     <Folder Include="Serialization\" />

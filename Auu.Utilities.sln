@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.30128.74
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auu.Utilities", "Auu.Utilities.csproj", "{05F4A718-172A-448E-88E6-88DCBBA800D3}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Auu.Utilities.Test", "..\Auu.Utilities.Test\Auu.Utilities.Test.csproj", "{877A68F4-555A-4137-8BD5-58981D70ED35}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{05F4A718-172A-448E-88E6-88DCBBA800D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05F4A718-172A-448E-88E6-88DCBBA800D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05F4A718-172A-448E-88E6-88DCBBA800D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{877A68F4-555A-4137-8BD5-58981D70ED35}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{877A68F4-555A-4137-8BD5-58981D70ED35}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{877A68F4-555A-4137-8BD5-58981D70ED35}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{877A68F4-555A-4137-8BD5-58981D70ED35}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
