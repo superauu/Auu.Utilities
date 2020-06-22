@@ -1,4 +1,5 @@
 ﻿using System;
+using Auu.Utilities.Serialization;
 
 namespace Auu.Utilities.String
 {
@@ -37,6 +38,16 @@ namespace Auu.Utilities.String
         public static DateTime? ToDateTime(this string str)
         {
             return Converter.ToDateTime(str);
+        }
+
+        public static string ToJson(this object obj)
+        {
+            return JsonUtility.ToJson(obj);
+        }
+
+        public static string ToXml(this object obj)
+        {
+            return XmlUtility.ToXml(obj);
         }
     }
 }
